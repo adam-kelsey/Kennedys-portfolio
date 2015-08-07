@@ -1,324 +1,243 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Easier Website Template | Home :: w3layouts</title>
-		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-		<script src="js/jquery.min.js"></script>
-		 <!-- Custom Theme files -->
-		<link href="css/style.css" rel='stylesheet' type='text/css' />
-   		 <!-- Custom Theme files -->
-   		 <!---- start-smoth-scrolling---->
-		<script type="text/javascript" src="js/move-top.js"></script>
-		<script type="text/javascript" src="js/easing.js"></script>
-		<script type="text/javascript">
-			jQuery(document).ready(function($) {
-				$(".scroll").click(function(event){		
-					event.preventDefault();
-					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-				});
-			});
-		</script>
-		 <!---- start-smoth-scrolling---->
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-		</script>
-		<!----webfonts--->
-		<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
-		<!---//webfonts--->
-		<!----start-top-nav-script---->
-		<script>
-			$(function() {
-				var pull 		= $('#pull');
-					menu 		= $('nav ul');
-					menuHeight	= menu.height();
-				$(pull).on('click', function(e) {
-					e.preventDefault();
-					menu.slideToggle();
-				});
-				$(window).resize(function(){
-	        		var w = $(window).width();
-	        		if(w > 320 && menu.is(':hidden')) {
-	        			menu.removeAttr('style');
-	        		}
-	    		});
-			});
-		</script>
-		<!----//End-top-nav-script---->
-	</head>
-	<body>
-		<!----- start-header---->
-			<div id="home" class="header">
-					<div class="top-header">
-						<div class="container">
-						<div class="logo">
-							<a href="#">Easier</a>
-						</div>
-						<!----start-top-nav---->
-						 <nav class="top-nav">
-							<ul class="top-nav">
-								<li class="active"><a href="#home" class="scroll">Home </a></li>
-								<li class="page-scroll"><a href="#work" class="scroll">Work</a></li>
-								<li class="page-scroll"><a href="#team" class="scroll">Team</a></li>
-								<li class="contatct-active" class="page-scroll"><a href="#contact" class="scroll">Contact</a></li>
-							</ul>
-							<a href="#" id="pull"><img src="images/nav-icon.png" title="menu" /></a>
-						</nav>
-						<div class="clearfix"> </div>
-					</div>
-				</div>
-			</div>
-			<!----- //End-header---->
-			<!----banner---->
-			<div class="banner text-center">
-				<div class="container">
-					<div class="banner-info">
-						<h1><span>let us make</span> your lives easier</h1>
-						<p>We specialize in crafting awesome ideas for web, mobile and beyond.</p>
-						<label class="page-scroll"><a class="big-btn scroll" href="#work1"><span> </span></a></label>
-					</div>
-				</div>
-			</div>
-			<!--//banner---->
-			<!---work--->
-			<div id="work" class="work">
-				<div id="work1" class="container">
-					<div class="head-one text-center">
-						<h2>featured work</h2>
-						<span> </span>
-						<p>Here you can find some of our latest works, to see the details of these works just click the thumbnails below.</p>
-					</div>
-					<!---works--->
-					<!---images-hover-effects--->
-					<script src="js/jquery.hoverGrid.js"></script>
-					<link rel="stylesheet" type="text/css" href="css/jquery.hoverGrid.css">
-					<script type="text/javascript">
-					    $(document).ready(function() {
-					      $('#whatever').hoverGrid();
-					    });
-					</script>
-					<!---images-hover-effects--->
-					<div class="works">
-							<div id="whatever">
-								<div class="col-md-4 work-grid">
-								    <div class="item">
-								        <img  src="images/w1.jpg" title="name" />
-								        <div class="caption" style="display: none;">
-								            <h2>Some Title</h2>
-								            <p>This is a caption to end all captions</p>
-								        </div>
-								    </div>  
-							    </div>  
-							    <div class="col-md-4 work-grid">
-								    <div class="item">
-								        <img  src="images/w2.jpg" title="name" />
-								        <div class="caption" style="display: none;">
-								            <h2>Some Title</h2>
-								            <p>This is a caption to end all captions</p>
-								        </div>
-								    </div>  
-							    </div>    
-							    <div class="col-md-4 work-grid">
-								    <div class="item">
-								        <img  src="images/w3.jpg" title="name" />
-								        <div class="caption" style="display: none;">
-								            <h2>Some Title</h2>
-								            <p>This is a caption to end all captions</p>
-								        </div>
-								    </div>  
-							    </div>    
-							    <div class="col-md-4 work-grid">
-								    <div class="item">
-								        <img  src="images/w4.jpg" title="name" />
-								        <div class="caption" style="display: none;">
-								            <h2>Some Title</h2>
-								            <p>This is a caption to end all captions</p>
-								        </div>
-								    </div>  
-							    </div>    
-							    <div class="col-md-4 work-grid">
-								    <div class="item">
-								        <img  src="images/w5.jpg" title="name" />
-								        <div class="caption" style="display: none;">
-								            <h2>Some Title</h2>
-								            <p>This is a caption to end all captions</p>
-								        </div>
-								    </div>  
-							    </div>    
-							    <div class="col-md-4 work-grid">
-								    <div class="item">
-								        <img  src="images/w6.jpg" title="name" />
-								        <div class="caption" style="display: none;">
-								            <h2>Some Title</h2>
-								            <p>This is a caption to end all captions</p>
-								        </div>
-								    </div>  
-							    </div>    
-							    <div class="col-md-4 work-grid">
-								    <div class="item">
-								        <img  src="images/w7.png" title="name" />
-								        <div class="caption" style="display: none;">
-								            <h2>Some Title</h2>
-								            <p>This is a caption to end all captions</p>
-								        </div>
-								    </div>  
-							    </div>    
-							    <div class="col-md-4 work-grid">
-								    <div class="item">
-								        <img  src="images/w8.jpg" title="name" />
-								        <div class="caption" style="display: none;">
-								            <h2>Some Title</h2>
-								            <p>This is a caption to end all captions</p>
-								        </div>
-								    </div>  
-							    </div>    
-							    <div class="col-md-4 work-grid">
-								    <div class="item">
-								        <img  src="images/w9.jpg" title="name" />
-								        <div class="caption" style="display: none;">
-								            <h2>Some Title</h2>
-								            <p>This is a caption to end all captions</p>
-								        </div>
-								    </div>  
-							    </div>  
-							    <div class="clearfix"> </div>               
-							</div>
-					</div>
-					 <div class="clearfix"> </div>   
-					</div>
-				</div>
-					<!---//works--->
-					<!---team--->
-					<div id="team" class="team">
-						<div class="container">
-							<div class="head-one text-center team-head">
-								<h2>Team</h2>
-								<span> </span>
-								<p>We are a hard working group, who's aim is to listen to your problems and to come up with the best solution possible. We follow the lates trends on the web to create custom talierd niche websites.</p>
-							</div>	
-							<!----team-members---->
-							<div class="team-members">
-								<div class="col-md-3">
-									<div class="team-member text-center">
-										<img class="t-pic" src="images/t1.jpg" title="name" />
-										<h3>naME sURNAME</h3>
-										<span>Lead Developer</span>
-										<ul class="t-social unstyled-list list-inline">
-											<li><a class="twitter" href="#"><span> </span></a></li>
-											<li><a class="dribbble" href="#"><span> </span></a></li>
-											<li><a class="in" href="#"><span> </span></a></li>
-											<div class="clearfix"> </div>
-										</ul>
-									</div>
-								</div>
-								<div class="col-md-3">
-									<div class="team-member text-center">
-										<img class="t-pic" src="images/t2.jpg" title="name" />
-										<h3>naME sURNAME</h3>
-										<span>Lead Developer</span>
-										<ul class="t-social unstyled-list list-inline">
-											<li><a class="twitter" href="#"><span> </span></a></li>
-											<li><a class="dribbble" href="#"><span> </span></a></li>
-											<li><a class="in" href="#"><span> </span></a></li>
-											<div class="clearfix"> </div>
-										</ul>
-									</div>
-								</div>
-								<div class="col-md-3">
-									<div class="team-member text-center">
-										<img class="t-pic" src="images/t3.jpg" title="name" />
-										<h3>naME sURNAME</h3>
-										<span>Lead Developer</span>
-										<ul class="t-social unstyled-list list-inline">
-											<li><a class="twitter" href="#"><span> </span></a></li>
-											<li><a class="dribbble" href="#"><span> </span></a></li>
-											<li><a class="in" href="#"><span> </span></a></li>
-											<div class="clearfix"> </div>
-										</ul>
-									</div>
-								</div>
-								<div class="col-md-3">
-									<div class="team-member text-center">
-										<img class="t-pic" src="images/t4.jpg" title="name" />
-										<h3>naME sURNAME</h3>
-										<span>Lead Developer</span>
-										<ul class="t-social unstyled-list list-inline">
-											<li><a class="twitter" href="#"><span> </span></a></li>
-											<li><a class="dribbble" href="#"><span> </span></a></li>
-											<li><a class="in" href="#"><span> </span></a></li>
-											<div class="clearfix"> </div>
-										</ul>
-									</div>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-							<!----//team-members---->
-						</div>
-					</div>
-					<!---//team--->
-					<!---Contact--->
-					<div id="contact" class="contact">
-						<div class="container">
-							<div class="head-one text-center">
-								<h2>contact</h2>
-								<span> </span>
-							</div>
-							<div class="contact-grids">
-								<div class="col-md-5 contact-map">
-								<p>Where are we located?</p>
-									<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6492831.879838215!2d-102.04805634196835!3d37.38207314531542!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited+States!5e0!3m2!1sen!2sin!4v1403540089700"></iframe>
-								</div>
-								<div class="col-md-7 contact-form">
-								<p>Want to contact us now? Just drop us a line below.</p>	
-								<form>
-									<textarea>Leave us a message...</textarea>
-									<input type="text" value="Your@mail.com">
-									<input type="submit" value="Send" />
-								</form>
-								</div>
-								<div class="clearfix"> </div>
-							</div>
-						</div>
-					</div>
-					<!---//Contact--->
-					<!---footer--->
-					<div class="footer">
-						<div class="container">
-							<div class="footer-left">
-								<p><span>Adress:</span> ipsum dolor sit amet, consectetur adipiscing - elit.</p>
-							</div>
-							<div class="footer-right">
-								<p>Template by <a href="#">W3layouts</a></p>
-								<script type="text/javascript">
-									$(document).ready(function() {
-										/*
-										var defaults = {
-								  			containerID: 'toTop', // fading element id
-											containerHoverID: 'toTopHover', // fading element hover id
-											scrollSpeed: 1200,
-											easingType: 'linear' 
-								 		};
-										*/
-										
-										$().UItoTop({ easingType: 'easeOutQuart' });
-										
-									});
-								</script>
-									<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-							</div>
-							<div class="clearfix"> </div>
-						</div>
-					</div>
-					<!---//footer--->
-				</div>
-			</div>
-			
-	</body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Home</title>
+<meta charset="utf-8">
+<meta name = "format-detection" content = "telephone=no" />
+<link rel="icon" href="images/favicon.ico">
+<link rel="shortcut icon" href="images/favicon.ico" />
+<link rel="stylesheet" href="css/style.css">
+<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.1.1.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/script.js"></script> 
+<script src="js/superfish.js"></script>
+<script src="js/jquery.equalheights.js"></script>
+<script src="js/jquery.mobilemenu.js"></script>
+<script src="js/tmStickUp.js"></script>
+<script src="js/jquery.ui.totop.js"></script>
+<script src="js/jquery.shuffle-images.js"></script>
+<script>
+ $(window).load(function(){
+  $().UItoTop({ easingType: 'easeOutQuart' });
+  $('#stuck_container').tmStickUp({});  
+ }); 
+
+ $(document).ready(function(){
+       $(".shuffle-me").shuffleImages({
+         target: ".images > img"
+       });
+    });
+
+</script>
+<!--[if lt IE 8]>
+ <div style=' clear: both; text-align:center; position: relative;'>
+   <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+     <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+   </a>
+</div>
+<![endif]-->
+<!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<link rel="stylesheet" media="screen" href="css/ie.css">
+<![endif]-->
+</head>
+
+<body class="page1" id="top">
+<!--==============================
+              header
+=================================-->
+<header>
+  <div class="header_top">
+    <div class="container">
+      <div class="row">
+        <div class="grid_12">
+          <h1><a href="#">Photo.Folio <br> Capturing Life </a></h1>
+          your photographer
+        </div>
+      </div>
+    </div>
+  </div>
+  <section id="stuck_container">
+  <!--==============================
+              Stuck menu
+  =================================-->
+    <div class="container">
+      <div class="row">
+        <div class="grid_12 ">
+          <h1 class="logo">
+            <a href="index.html">
+              Photo.Folio
+            </a>
+          </h1>
+          <div class="navigation ">
+            <nav>
+              <ul class="sf-menu">
+               <li class="current"><a href="index.html">Home</a></li>
+               <li><a href="about.html">About</a></li>
+               <li><a href="gallery.html">Gallery</a></li>
+               <li><a href="blog.html">Blog</a></li>
+               <li><a href="contacts.html">Contacts</a></li>
+             </ul>
+            </nav>
+            <div class="clear"></div>
+          </div>       
+         <div class="clear"></div>  
+        </div>
+     </div> 
+    </div> 
+  </section>
+</header>
+<!--=====================
+          Content
+======================-->
+<section id="content"><div class="ic">More Website Templates @ TemplateMonster.com - August11, 2014!</div>
+  <div class="container">
+    <div class="row">
+      <div class="grid_12">
+        <h2 class="ta__center">Recent  Photos</h2>
+        <div class="shuffle-group">
+          <div class="row">
+            <div class="grid_8">
+              <div data-si-mousemove-trigger="100"  class="shuffle-me offset__1">
+                <a href="gallery.html" class="info" target="_blank"></a>
+                <div class="images">
+                  <img src="images/gall_1.jpg" alt="">
+                  <img src="images/gall_1-1.jpg" alt="">
+                  <img src="images/gall_1-2.jpg" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="grid_4">
+              <div data-si-mousemove-trigger="100" class="shuffle-me">
+                <a href="gallery.html" class="info" target="_blank"></a>
+                <div class="images">
+                  <img src="images/gall_2.jpg" alt="">
+                  <img src="images/gall_2-1.jpg" alt="">
+                  <img src="images/gall_2-2.jpg" alt="">
+                </div>
+              </div>
+              <div data-si-mousemove-trigger="100" class="shuffle-me offset__1">
+                <a href="gallery.html" class="info" target="_blank"></a>
+                <div class="images">
+                  <img src="images/gall_3.jpg" alt="">
+                  <img src="images/gall_3-1.jpg" alt="">
+                  <img src="images/gall_3-2.jpg" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="clear"></div>
+            <div class="grid_4">
+              <div data-si-mousemove-trigger="100" class="shuffle-me">
+                <a href="gallery.html" class="info" target="_blank"></a>
+                <div class="images">
+                  <img src="images/gall_4.jpg" alt="">
+                  <img src="images/gall_4-1.jpg" alt="">
+                  <img src="images/gall_4-2.jpg" alt="">
+                </div>
+              </div>
+              <div data-si-mousemove-trigger="100" class="shuffle-me">
+                <a href="gallery.html" class="info" target="_blank"></a>
+                <div class="images">
+                  <img src="images/gall_5.jpg" alt="">
+                  <img src="images/gall_5-1.jpg" alt="">
+                  <img src="images/gall_5-2.jpg" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="grid_8">
+              <div data-si-mousemove-trigger="100"  class="shuffle-me">
+                <a href="gallery.html" class="info" target="_blank"></a>
+                <div class="images">
+                  <img src="images/gall_6.jpg" alt="">
+                  <img src="images/gall_6-1.jpg" alt="">
+                  <img src="images/gall_6-2.jpg" alt="">
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <div class="sep-1"></div>
+  <div class="container">
+    <div class="row">
+      <div class="grid_8">
+        <h3>Bio</h3>
+        <img src="images/page1_img1.jpg" alt="" class="img_inner fleft noresize">
+        <div class="extra_wrapper"><p class="offset__1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mollis erat mattis neque facilisis, sit amet ultricies erat rutrum. Cras facilisis, nulla vel viverra auctor, leo magna sodales felis, quis malesuada nibh odio ut velit. Proin pharetra luctus diam, a scelerisque eros convallis accumsan. Maecenas vehicula egestas  derto venenatis. Duis massa elit, auctor non pellentesque vel, aliquet sit amet erat.</p></div>
+        <div class="clear"></div>
+        <p>Find detailed information about the <a href=" http://blog.templatemonster.com/free-website-templates/" rel="nofollow" class="color1"><strong>freebie</strong></a> here. </p>
+        <p>Visit TemplateMonster.com to find more <a href="http://www.templatemonster.com/properties/topic/design-photography/" rel="nofollow" class="color1"><strong>goodies</strong></a> of this kind.</p>
+        Proin pharetra luctus diam, a scelerisque eros convallis accumsan. Maecenas vehicula egestas venenatis. <br>
+        <a href="#" class="btn">more</a> 
+      </div>
+      <div class="grid_4">
+        <h3>Follow me</h3>
+        <ul class="socials">
+          <li>
+            <div class="fa fa-facebook"></div>
+            <a href="#">Be a fan on Facebook</a>
+          </li>
+          <li>
+            <div class="fa fa-twitter"></div>
+            <a href="#">Follow me on Twitter</a>
+          </li>
+          <li>
+            <div class="fa fa-google-plus"></div>
+            <a href="#">Follow me on Google+</a>
+          </li>
+          <li>
+            <div class="fa fa-youtube"></div>
+            <a href="#">Follow me on YouTube</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="sep-1"></div>
+  <div class="container">
+    <div class="row">
+      <div class="grid_7">
+        <h3 class="head__1">From the Blog</h3>
+        <time class="time-1" datetime="2014-01-01">24.07 <br> 2014</time><p class="offset__2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mollis erat mattis neque facilisis, sit amet ultricies erat rutrum. Cras facilisis, nulla vel viverra auctor, leo magna sodales felis, quis malesuada nibh odio ut velit. Proin pharetra luctus diam, a scelerisque eros convallis accumsan. Maecenas vehicula egestas  derto venenatis. Duis </p>
+        Dorem ipsum dolor sit amet, consectetur adipiscing elit. In mollis erat mattis neque facilisis, sit amet ultricies erat rutrum. Cras facilisis, nulla vel viverra auctor, leo magna sodales felis. <br>
+        <a href="#" class="btn">more</a>
+      </div>
+      <div class="grid_4 preffix_1">
+        <h3 class="head__1">Testimonials</h3>
+        <blockquote class="bq_1">
+          <img src="images/page1_img2.jpg" alt="" class="img_inner fleft noresize">
+          <div class="extra_wrapper">
+            <div class="bq_title">Lize Jons</div>
+          </div>
+          <div class="clear"></div>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In mollis erat mattis neque facilisis, sit amet ultricies erat rutrum. Cras facilisis, nulla vel viverra auctor...
+          <br>
+          <a href="#" class="btn">more</a>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+</section>
+<!--==============================
+              footer
+=================================-->
+<footer id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="grid_12"> 
+        <h2>Contacts</h2>
+        <div class="footer_phone">+1 800 559 6580</div>
+        <a href="#" class="footer_mail">info@demolink.org</a>
+        <div class="sub-copy">Website designed by <a href="http://www.templatemonster.com/" rel="nofollow">TemplateMonster.com</a></div>
+      </div>
+    </div>
+
+  </div>  
+</footer>
+<a href="#" id="toTop" class="fa fa-chevron-up"></a>
+</body>
 </html>
+
